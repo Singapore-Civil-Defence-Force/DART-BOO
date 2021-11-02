@@ -1,47 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f50482b0789d317806a1ad7c263f5d2f",
+    "revision": "d9bbe0fc6c98fe5539d93dacfe268451",
     "url": "./index.html"
   },
   {
-    "revision": "4730006e8b525bb8da42",
+    "revision": "18b16cabf7dbecb235ea",
     "url": "./static/css/2.eb450184.chunk.css"
   },
   {
-    "revision": "7b41a198397c935e1c16",
+    "revision": "661132db193fd0f43ceb",
     "url": "./static/css/main.5e26a9d1.chunk.css"
   },
   {
-    "revision": "4730006e8b525bb8da42",
-    "url": "./static/js/2.3875717e.chunk.js"
+    "revision": "18b16cabf7dbecb235ea",
+    "url": "./static/js/2.57e88fa3.chunk.js"
   },
   {
     "revision": "fd1bb48cff4e37deb496f8ab15187460",
-    "url": "./static/js/2.3875717e.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.57e88fa3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7b41a198397c935e1c16",
-    "url": "./static/js/main.60e8e54e.chunk.js"
+    "revision": "661132db193fd0f43ceb",
+    "url": "./static/js/main.758bde6e.chunk.js"
   },
   {
     "revision": "bbb977e748a4027415cf",
     "url": "./static/js/runtime-main.3c8ee2de.js"
-  },
-  {
-    "revision": "685032ebe674b444dfe5dcdd0e7dfe54",
-    "url": "./static/media/bathroomSink.685032eb.png"
-  },
-  {
-    "revision": "4c359bbc50e7a694574eed9fa4473ff6",
-    "url": "./static/media/bathroomSink180.4c359bbc.png"
-  },
-  {
-    "revision": "273bb690e1b46cd8fe9914c99287e3f8",
-    "url": "./static/media/bathroomSink270.273bb690.png"
-  },
-  {
-    "revision": "2dec5e60d28e15c95a4fc0a81881df87",
-    "url": "./static/media/bathroomSink90.2dec5e60.png"
   },
   {
     "revision": "33248cf6530164dc566c2738238dadd8",
@@ -58,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "803c506b7361936c9c3c5d2ff70837de",
     "url": "./static/media/bifoldDoor90.803c506b.png"
-  },
-  {
-    "revision": "217d191cf8ffcd6f2a1d7119a1fd123a",
-    "url": "./static/media/cookTop.217d191c.png"
   },
   {
     "revision": "5713dc6a0a998b83e71cb8cfc1e3ea96",
@@ -152,6 +132,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/fa-solid-900.ec763292.svg"
   },
   {
+    "revision": "5713dc6a0a998b83e71cb8cfc1e3ea96",
+    "url": "./static/media/favicon.5713dc6a.png"
+  },
+  {
     "revision": "c8d2a2418909c188c060575cc47c6b1d",
     "url": "./static/media/showerRect.c8d2a241.png"
   },
@@ -178,21 +162,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8b03babadc5f19e155650c67895d2ff5",
     "url": "./static/media/tableRound.8b03baba.png"
-  },
-  {
-    "revision": "0d872418fdc744083e2bbf1a4a464370",
-    "url": "./static/media/toilet.0d872418.png"
-  },
-  {
-    "revision": "97c97139c2276ca644f6b99602b5c676",
-    "url": "./static/media/toilet180.97c97139.png"
-  },
-  {
-    "revision": "8b3e77fcc7d600c41cc2129dfb247df8",
-    "url": "./static/media/toilet270.8b3e77fc.png"
-  },
-  {
-    "revision": "831bf5635c8ebc932fbe83b7e63ff138",
-    "url": "./static/media/toilet90.831bf563.png"
   }
 ]);
