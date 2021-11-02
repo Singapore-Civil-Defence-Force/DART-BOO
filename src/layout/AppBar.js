@@ -544,11 +544,11 @@ function AppBar() {
                 <Tab label="Tents" />
                 <Tab label="Lanes" />
                 <Tab label="Doors" />
-                <Tab label="Tables" />
-                <Tab label="Equipment #1" />
+                {/* <Tab label="Tables" /> */}
+                {/* <Tab label="Equipment #1" />
                 <Tab label="Equipment #2" />
                 <Tab label="Equipment #3" />
-                <Tab label="Equipment #4" />
+                <Tab label="Equipment #4" /> */}
               </Tabs>
             </Grid>
 
