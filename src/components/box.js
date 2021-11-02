@@ -364,9 +364,11 @@ function Box({ isPositionOutside, boxProps }) {
               }
             : // REGULAR WALL
               {
-                backgroundColor: "#000",
-                borderRight: "1px solid #000",
-                borderBottom: "1px solid #000",
+                backgroundColor: "#ffffff",
+                // borderRight: "0.01px solid #000",
+                // borderBottom: "0.01px solid #000",
+                borderTop: "0.01px solid #000",
+                borderLeft: "0.01px solid #000",
               }
           : isSelected
           ? {

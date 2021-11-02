@@ -37,30 +37,16 @@ import {
   WINDOW_32,
   WINDOW_48,
   WINDOW_60,
-  COUNTER_MIDDLE,
-  COUNTER_CORNER,
-  COUNTER_END,
-  COOK_TOP,
-  DISHWASHER,
   SINK,
   DOUBLE_SINK,
-  OVEN,
-  REFRIGERATOR,
-  WASHER,
-  DRYER,
-  TOILET,
-  BR_SINK,
   SHOWER_RECT,
   SHOWER_SQUARE,
-  BATH,
-  CHAIR,
   SOFA,
   COFFEE_TABLE,
   END_TABLE,
   LOVESEAT,
   TABLE_RECT,
   TABLE_ROUND,
-  TWIN_BED,
   QUEEN_BED,
 } from "./objectInfo";
 import singleDoor from "../images/objects/singleDoor.png";
@@ -87,53 +73,20 @@ import window from "../images/objects/window.png";
 import window90 from "../images/objects/window90.png";
 import window180 from "../images/objects/window180.png";
 import window270 from "../images/objects/window270.png";
-import counterMiddle from "../images/objects/counterMiddle.png";
-import counterMiddle90 from "../images/objects/counterMiddle90.png";
-import counterMiddle180 from "../images/objects/counterMiddle180.png";
-import counterMiddle270 from "../images/objects/counterMiddle270.png";
-import cookTop from "../images/objects/cookTop.png";
-import counterCorner from "../images/objects/counterCorner.png";
-import counterCorner90 from "../images/objects/counterCorner90.png";
-import counterCorner180 from "../images/objects/counterCorner180.png";
-import counterCorner270 from "../images/objects/counterCorner270.png";
-import counterEnd from "../images/objects/counterEnd.png";
-import counterEnd90 from "../images/objects/counterEnd90.png";
-import counterEnd180 from "../images/objects/counterEnd180.png";
-import counterEnd270 from "../images/objects/counterEnd270.png";
-import dishwasher from "../images/objects/dishwasher.png";
 import doubleSink from "../images/objects/doubleSink.png";
 import doubleSink90 from "../images/objects/doubleSink90.png";
 import doubleSink180 from "../images/objects/doubleSink180.png";
 import doubleSink270 from "../images/objects/doubleSink270.png";
 import dryer from "../images/objects/dryer.png";
-import oven from "../images/objects/oven.png";
-import refrigerator from "../images/objects/refrigerator.png";
 import sink from "../images/objects/sink.png";
 import sink90 from "../images/objects/sink90.png";
 import sink180 from "../images/objects/sink180.png";
 import sink270 from "../images/objects/sink270.png";
-import washer from "../images/objects/washer.png";
-import bath from "../images/objects/bath.png";
-import bath90 from "../images/objects/bath90.png";
-import bath180 from "../images/objects/bath180.png";
-import bath270 from "../images/objects/bath270.png";
-import bathroomSink from "../images/objects/bathroomSink.png";
-import bathroomSink90 from "../images/objects/bathroomSink90.png";
-import bathroomSink180 from "../images/objects/bathroomSink180.png";
-import bathroomSink270 from "../images/objects/bathroomSink270.png";
 import showerRect from "../images/objects/showerRect.png";
 import showerRect90 from "../images/objects/showerRect90.png";
 import showerRect180 from "../images/objects/showerRect180.png";
 import showerRect270 from "../images/objects/showerRect270.png";
 import showerSquare from "../images/objects/showerSquare.png";
-import toilet from "../images/objects/toilet.png";
-import toilet90 from "../images/objects/toilet90.png";
-import toilet180 from "../images/objects/toilet180.png";
-import toilet270 from "../images/objects/toilet270.png";
-import chair from "../images/objects/chair.png";
-import chair90 from "../images/objects/chair90.png";
-import chair180 from "../images/objects/chair180.png";
-import chair270 from "../images/objects/chair270.png";
 import endTable from "../images/objects/endTable.png";
 import coffeeTable from "../images/objects/coffeeTable.png";
 import coffeeTable90 from "../images/objects/coffeeTable90.png";
@@ -152,10 +105,6 @@ import tableRect from "../images/objects/tableRect.png";
 import tableRect90 from "../images/objects/tableRect90.png";
 import tableRect180 from "../images/objects/tableRect180.png";
 import tableRect270 from "../images/objects/tableRect270.png";
-import twinBed from "../images/objects/twinBed.png";
-import twinBed90 from "../images/objects/twinBed90.png";
-import twinBed180 from "../images/objects/twinBed180.png";
-import twinBed270 from "../images/objects/twinBed270.png";
 import queenBed from "../images/objects/queenBed.png";
 import queenBed90 from "../images/objects/queenBed90.png";
 import queenBed180 from "../images/objects/queenBed180.png";
@@ -392,46 +341,6 @@ function ObjectEl({ id, type, position }) {
           : imgRotation === 180
           ? window180
           : window270;
-      case COOK_TOP:
-        return imgRotation === 0
-          ? cookTop
-          : imgRotation === 90
-          ? cookTop
-          : imgRotation === 180
-          ? cookTop
-          : cookTop;
-      case COUNTER_CORNER:
-        return imgRotation === 0
-          ? counterCorner
-          : imgRotation === 90
-          ? counterCorner90
-          : imgRotation === 180
-          ? counterCorner180
-          : counterCorner270;
-      case COUNTER_END:
-        return imgRotation === 0
-          ? counterEnd
-          : imgRotation === 90
-          ? counterEnd90
-          : imgRotation === 180
-          ? counterEnd180
-          : counterEnd270;
-      case COUNTER_MIDDLE:
-        return imgRotation === 0
-          ? counterMiddle
-          : imgRotation === 90
-          ? counterMiddle90
-          : imgRotation === 180
-          ? counterMiddle180
-          : counterMiddle270;
-      case DISHWASHER:
-        return imgRotation === 0
-          ? dishwasher
-          : imgRotation === 90
-          ? dishwasher
-          : imgRotation === 180
-          ? dishwasher
-          : dishwasher;
       case DOUBLE_SINK:
         return imgRotation === 0
           ? doubleSink
@@ -440,30 +349,6 @@ function ObjectEl({ id, type, position }) {
           : imgRotation === 180
           ? doubleSink180
           : doubleSink270;
-      case DRYER:
-        return imgRotation === 0
-          ? dryer
-          : imgRotation === 90
-          ? dryer
-          : imgRotation === 180
-          ? dryer
-          : dryer;
-      case OVEN:
-        return imgRotation === 0
-          ? oven
-          : imgRotation === 90
-          ? oven
-          : imgRotation === 180
-          ? oven
-          : oven;
-      case REFRIGERATOR:
-        return imgRotation === 0
-          ? refrigerator
-          : imgRotation === 90
-          ? refrigerator
-          : imgRotation === 180
-          ? refrigerator
-          : refrigerator;
       case SINK:
         return imgRotation === 0
           ? sink
@@ -472,30 +357,6 @@ function ObjectEl({ id, type, position }) {
           : imgRotation === 180
           ? sink180
           : sink270;
-      case WASHER:
-        return imgRotation === 0
-          ? washer
-          : imgRotation === 90
-          ? washer
-          : imgRotation === 180
-          ? washer
-          : washer;
-      case BATH:
-        return imgRotation === 0
-          ? bath
-          : imgRotation === 90
-          ? bath90
-          : imgRotation === 180
-          ? bath180
-          : bath270;
-      case BR_SINK:
-        return imgRotation === 0
-          ? bathroomSink
-          : imgRotation === 90
-          ? bathroomSink90
-          : imgRotation === 180
-          ? bathroomSink180
-          : bathroomSink270;
       case SHOWER_RECT:
         return imgRotation === 0
           ? showerRect
@@ -506,22 +367,6 @@ function ObjectEl({ id, type, position }) {
           : showerRect270;
       case SHOWER_SQUARE:
         return showerSquare;
-      case TOILET:
-        return imgRotation === 0
-          ? toilet
-          : imgRotation === 90
-          ? toilet90
-          : imgRotation === 180
-          ? toilet180
-          : toilet270;
-      case CHAIR:
-        return imgRotation === 0
-          ? chair
-          : imgRotation === 90
-          ? chair90
-          : imgRotation === 180
-          ? chair180
-          : chair270;
       case LOVESEAT:
         return imgRotation === 0
           ? loveSeat
@@ -566,14 +411,6 @@ function ObjectEl({ id, type, position }) {
           : imgRotation === 180
           ? queenBed180
           : queenBed270;
-      case TWIN_BED:
-        return imgRotation === 0
-          ? twinBed
-          : imgRotation === 90
-          ? twinBed90
-          : imgRotation === 180
-          ? twinBed180
-          : twinBed270;
       default:
         return singleDoor;
     }

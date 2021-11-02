@@ -37,23 +37,9 @@ import slidingDoor from "../images/objects/slidingDoor.png";
 import pocketDoor from "../images/objects/pocketDoor.png";
 import bifoldDoor from "../images/objects/bifoldDoor.png";
 import window from "../images/objects/window.png";
-import counterMiddle from "../images/objects/counterMiddle.png";
-import cookTop from "../images/objects/cookTop.png";
-import counterCorner from "../images/objects/counterCorner.png";
-import counterEnd from "../images/objects/counterEnd.png";
-import dishwasher from "../images/objects/dishwasher.png";
 import doubleSink from "../images/objects/doubleSink.png";
 import dryer from "../images/objects/dryer.png";
-import oven from "../images/objects/oven.png";
-import refrigerator from "../images/objects/refrigerator.png";
 import sink from "../images/objects/sink.png";
-import washer from "../images/objects/washer.png";
-import bath from "../images/objects/bath.png";
-import bathroomSink from "../images/objects/bathroomSink.png";
-import showerRect from "../images/objects/showerRect.png";
-import showerSquare from "../images/objects/showerSquare.png";
-import toilet from "../images/objects/toilet.png";
-import chair from "../images/objects/chair.png";
 import coffeeTable from "../images/objects/coffeeTable.png";
 import endTable from "../images/objects/endTable.png";
 import sofa from "../images/objects/sofa.png";
@@ -61,7 +47,6 @@ import loveSeat from "../images/objects/loveSeat.png";
 import tableRound from "../images/objects/tableRound.png";
 import tableRect from "../images/objects/tableRect.png";
 import queenBed from "../images/objects/queenBed.png";
-import twinBed from "../images/objects/twinBed.png";
 import balloonLight from "../images/objects/BOO/balloon-light.png";
 import dome from "../images/objects/BOO/dome.png";
 import duoTent from "../images/objects/BOO/duo_tent.png";
@@ -77,7 +62,7 @@ const useStyles = makeStyles({
   appBarContainer: {
     padding: "0px 24px 0px 20px",
     color: "#fff",
-    background: "#24292E",
+    background: "#323232",
     MozUserSelect: "none",
     WebkitUserSelect: "none",
     msUserSelect: "none",
@@ -186,27 +171,27 @@ const objects = {
     {
       id: "SINGLE_DOOR",
       file: singleDoor,
-      label: 'Single Door - 32"',
+      label: 'Single Door"',
     },
     {
       id: "DOUBLE_DOOR",
       file: doubleDoor,
-      label: 'Double Door - 64"',
+      label: 'Double Door"',
     },
     {
       id: "SLIDING_DOOR",
       file: slidingDoor,
-      label: 'Sliding Door - 64"',
+      label: 'Sliding Door"',
     },
     {
       id: "POCKET_DOOR",
       file: pocketDoor,
-      label: 'Pocket Door - 64"',
+      label: 'Pocket Door"',
     },
     {
       id: "BIFOLD_DOOR",
       file: bifoldDoor,
-      label: 'Bi-fold Door - 60"',
+      label: 'Bi-fold Door"',
     },
   ],
   windows: [
@@ -226,91 +211,7 @@ const objects = {
       label: 'Window - 60"',
     },
   ],
-  kitchen: [
-    {
-      id: "COUNTER_END",
-      file: counterEnd,
-      label: 'Counter End - 24"',
-    },
-    {
-      id: "COUNTER_MIDDLE",
-      file: counterMiddle,
-      label: 'Counter Middle - 24"',
-    },
-    {
-      id: "COUNTER_CORNER",
-      file: counterCorner,
-      label: 'Counter Corner - 24"',
-    },
-    {
-      id: "COOK_TOP",
-      file: cookTop,
-      label: 'Cook Top - 24"',
-    },
-    {
-      id: "DISHWASHER",
-      file: dishwasher,
-      label: 'Dishwasher - 24"',
-    },
-    {
-      id: "SINK",
-      file: sink,
-      label: 'Sink - 24"',
-    },
-    {
-      id: "DOUBLE_SINK",
-      file: doubleSink,
-      label: 'Double Sink - 24"',
-    },
-    {
-      id: "REFRIGERATOR",
-      file: refrigerator,
-      label: 'Refrigerator - 24"',
-    },
-    {
-      id: "OVEN",
-      file: oven,
-      label: 'Oven - 24"',
-    },
-  ],
-  bathroom: [
-    {
-      id: "BR_SINK",
-      file: bathroomSink,
-      label: 'Bathroom Sink - 24"',
-    },
-    {
-      id: "BATH",
-      file: bath,
-      label: 'Bath - 60"',
-    },
-    {
-      id: "SHOWER_RECT",
-      file: showerRect,
-      label: 'Shower Rect. - 60"',
-    },
-    {
-      id: "SHOWER_SQUARE",
-      file: showerSquare,
-      label: 'Shower Square - 32"',
-    },
-    {
-      id: "TOILET",
-      file: toilet,
-      label: 'Toilet - 30"',
-    },
-  ],
   livingRoom: [
-    {
-      id: "CHAIR",
-      file: chair,
-      label: 'Chair - 35"',
-    },
-    {
-      id: "LOVESEAT",
-      file: loveSeat,
-      label: 'Loveseat - 58"',
-    },
     {
       id: "SOFA",
       file: sofa,
@@ -320,11 +221,6 @@ const objects = {
       id: "COFFEE_TABLE",
       file: coffeeTable,
       label: 'Coffee Table - 40"',
-    },
-    {
-      id: "END_TABLE",
-      file: endTable,
-      label: 'End Table - 18"',
     },
   ],
   diningRoom: [
@@ -345,30 +241,7 @@ const objects = {
       file: queenBed,
       label: 'Queen Bed - 60"x80"',
     },
-    {
-      id: "TWIN_BED",
-      file: twinBed,
-      label: 'Twin Bed - 38"x75"',
-    },
-    {
-      id: "END_TABLE",
-      file: endTable,
-      label: 'End Table - 18"',
-    },
   ],
-  laundry: [
-    {
-      id: "WASHER",
-      file: washer,
-      label: 'Washer - 27"',
-    },
-    {
-      id: "DRYER",
-      file: dryer,
-      label: 'Dryer - 27"',
-    },
-  ],
-  stairs: [],
 };
 
 function AppBar() {
@@ -584,7 +457,7 @@ function AppBar() {
                     className={classes.menuButton}
                     onClick={handleClickTextbox}
                   >
-                    Place Text
+                    Place Label
                   </Button>
                 </Grid>
 
@@ -680,7 +553,7 @@ function AppBar() {
             </Grid>
 
             <Grid item xs>
-              {curTab === 0 ? ( // DOORS
+              {curTab === 0 ? ( // Tents
                 <div className={classes.modalContent}>
                   <Grid container spacing={1}>
                     {objects.tents.map((object) => (

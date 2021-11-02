@@ -17,8 +17,6 @@ export const COOK_TOP = "COOK_TOP";
 export const DISHWASHER = "DISHWASHER";
 export const SINK = "SINK";
 export const DOUBLE_SINK = "DOUBLE_SINK";
-export const OVEN = "OVEN";
-export const REFRIGERATOR = "REFRIGERATOR";
 // Laundry:
 export const WASHER = "WASHER";
 export const DRYER = "DRYER";
@@ -77,18 +75,16 @@ export const getObjectSize = (type) => {
     case BIFOLD_DOOR:
       return { w: 60, h: 18 };
     case WINDOW_32:
-      return { w: 32, h: 6 };
+      return { w: 4, h: 1 };
     case WINDOW_48:
-      return { w: 48, h: 6 };
+      return { w: 8, h: 1 };
     case WINDOW_60:
-      return { w: 60, h: 6 };
+      return { w: 12, h: 1 };
     case COUNTER_CORNER:
     case COUNTER_MIDDLE:
     case COUNTER_END:
     case COOK_TOP:
     case DISHWASHER:
-    case REFRIGERATOR:
-    case OVEN:
     case SINK:
       return { w: 24, h: 24 };
     case DOUBLE_SINK:
@@ -98,18 +94,12 @@ export const getObjectSize = (type) => {
       return { w: 27, h: 27 };
     case BATH:
       return { w: 60, h: 32 };
-    case BR_SINK:
-      return { w: 30, h: 20 };
     case SHOWER_RECT:
       return { w: 60, h: 32 };
     case SHOWER_SQUARE:
       return { w: 32, h: 32 };
-    case TOILET:
-      return { w: 20, h: 30 };
     case CHAIR:
       return { w: 35, h: 35 };
-    case LOVESEAT:
-      return { w: 58, h: 34 };
     case SOFA:
       return { w: 84, h: 34 };
     case COFFEE_TABLE:
